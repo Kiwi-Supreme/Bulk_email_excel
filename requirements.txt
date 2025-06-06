@@ -1,0 +1,8 @@
+fastapi
+aiosmtplib
+jinja2
+python-dotenv
+uvicorn
+kafka-python
+pandas 
+openpyxl
