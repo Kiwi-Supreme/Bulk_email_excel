@@ -1,0 +1,12 @@
+docker-compose up --build -d
+
+python consumer.py
+
+uvicorn main:app --reload 
+
+--------------------------------------------------------------------------------------------------------
+Incase of error:
+
+docker-compose down
+docker-compose pull
+docker-compose up --build -d
